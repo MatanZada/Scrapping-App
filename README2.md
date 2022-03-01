@@ -12,7 +12,7 @@ Site
 
 - siteName
 - siteUrl
-
+- selector
 
 We gonna add to each one of them model, controller, route.
 

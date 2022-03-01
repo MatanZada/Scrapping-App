@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Site</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container-box">
+        <h1>Please enter the details to get the selector</h1>
+        <form>
+            <input type="text" data-role="name" placeholder="name">
+            <input type="text" data-role="url" placeholder="url">
+            <input type="text" data-role="selector" placeholder="selector">
+            <input type="button" value="Save" data-role="save-button">
+        </form>
+
+
+
+        <h2>Accept the request</h2>
+        <div class="container-select">
+
+            <label>site
+                <select data-role="select-site" name="format" id="format">
+                    <option selected="disabled">loading data</option>
+                </select>
+            </label>
+            <input type="button" value="get title" data-role="screp"></input>
+            <div data-role="text"></div>
+            <div id="res"></div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    <script src="./js/siteH.js"></script>
+</body>
+
+</html>

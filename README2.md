@@ -2,8 +2,8 @@
 We gonna build a scrapping app.
 
 The site we gonna scrape.
-https://www.amazon.com
-https://www.ebay.com
+- https://www.amazon.com
+- https://www.ebay.com
 
 - The app is going to scrape a sites, and add its title to the DB.
   create a model called site
